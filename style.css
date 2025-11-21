@@ -1,0 +1,231 @@
+html,
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+    padding: 8px 16px !important;
+    letter-spacing: 4px;
+}
+
+.navbar-nav .nav-link {
+    letter-spacing: 3px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f1f1f1;
+}
+
+.header-section {
+    margin-top: 76px;
+}
+
+.hero-image-container {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px 24px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #666;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.about-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+.about-image-container {
+    padding: 12px 24px;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.about-text {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.highlight {
+    background-color: #f1f1f1;
+    padding: 0 8px;
+}
+
+.menu-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+
+.menu-items {
+    padding: 0 16px;
+}
+
+.menu-item-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 5px;
+}
+
+.menu-item-description {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.menu-image-container {
+    padding: 12px 24px;
+}
+
+.menu-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+
+.section-divider {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.contact-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 64px 16px;
+}
+
+.contact-text,
+.contact-address,
+.contact-info {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.contact-form {
+    margin-top: 16px;
+}
+
+.contact-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 8px;
+    border-radius: 0;
+    font-size: 15px;
+}
+
+.contact-input:focus {
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+.contact-btn {
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 8px 16px;
+    border: none;
+    margin-top: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.contact-btn:hover {
+    background-color: #ccc;
+}
+
+.footer-section {
+    background-color: #f1f1f1;
+    padding: 32px 0;
+}
+
+.footer-link {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .about-text,
+    .contact-text,
+    .contact-address,
+    .contact-info {
+        font-size: 15px;
+    }
+
+    .menu-item-title {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 18px;
+    }
+
+    .about-section,
+    .menu-section,
+    .contact-section {
+        padding: 32px 16px;
+    }
+
+    .about-image-container,
+    .menu-image-container {
+        padding: 8px 16px;
+    }
+}
